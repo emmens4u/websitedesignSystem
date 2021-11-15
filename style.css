@@ -1,0 +1,106 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    max-width: 1200px;
+    margin: auto;
+    font-size: 20px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 40px;
+    font-family: 'Indie Flower', cursive;
+}
+
+h2 {
+ font-weight: 500;
+ font-size: 26px;
+ font-family: 'Lora', serif;
+}
+
+a {
+    color: #FC6500;
+    text-decoration: none;
+}
+/* Colors-section */
+#colors, #fonts, #text-styles {
+    border: 2px solid #000000;
+    padding: 0 10px;
+    margin-top: 20px;
+}
+
+div { 
+    width: auto;
+}
+.colors-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.container {
+    padding: 10px;
+    margin: 10px auto; 
+    width: 90%;
+    min-height: 150px;
+    display: inline-block;
+    text-align: center;
+}
+
+.color-label {
+    font-weight: bold;
+}
+
+.rosita-red {
+    background-color: #EB0000;
+}
+
+.sunny-yellow {
+    background-color: #FFCC00;
+}
+
+.lovely-pink {
+    background-color: #ffc0cb;
+}
+
+.mint-green {
+    background-color: #c0ffd5;
+}
+
+.baby-blue {
+    background-color: #c0ebff;
+}
+
+.dutch-orange {
+    background-color: #FC6500;
+}
+
+/* Fonts-section */
+
+.fonts-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.lora {
+    font-family: 'Lora', serif;
+}
+
+.indie-flower {
+    font-family: 'Indie Flower', cursive;
+}
+
+.font-label {
+    text-decoration: underline;
+}
+
+.bold-font {
+    font-weight: bold;
+}
+
+.italic-font {
+    font-style: italic;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+}
